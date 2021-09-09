@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'S H A R E  U S  O N  W H A T S A P P', url="https://api.whatsapp.com/send?text=MG%20University%20Students%20Group%0A%0A%F0%9F%93%8CExam%20Announcements%0A%F0%9F%93%8CExam%20Timetables%0A%F0%9F%93%8CUniversity%20News%0A%F0%9F%93%8CModel%20Question%20Papers%0A%F0%9F%93%8CNotes%0A%F0%9F%93%8CGovt.%20Job%20Alerts%0A%0AGroup%20link%F0%9F%91%87%0A%0Ahttps%3A%2F%2Ftelegram.me%2FMG_University%0A%0Ahttps%3A%2F%2Ftelegram.me%2Fjoinchat%2F3VcrRT9jA4BhYmJh%20%0A%0AInvite%20your%20friends%20to%20this%20group%F0%9F%99%8F"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
+        InlineKeyboardButton('Channel', url='https://t.me/MahatmaGandhiUniversityKerala'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Home 🏠', url='https://t.me/MG_University')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
